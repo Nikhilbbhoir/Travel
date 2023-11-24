@@ -1,0 +1,235 @@
+#active{    
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    color: white;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+nav span{
+    margin-right: 37rem;
+    margin-left: 8rem;
+    font-weight: bold;
+    /* gap: 300px; */
+}
+
+nav a{
+    color: white;
+    display: flex;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+/* footer css */
+
+footer{
+    background-color: aliceblue;
+}
+
+.frow{
+    display: flex;
+    gap: 11rem;
+    margin-left: 4rem;
+    color: navy;
+}
+.frow a{
+    text-decoration: none;
+}
+
+.fcol1 img{
+    cursor: pointer;
+}
+.fcol2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fcol3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fcol4{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.dec li{
+    text-decoration: none;
+}
+
+
+
+.lastline{
+    display: flex;
+    bottom: 0px;
+    position:relative;
+    padding: 2rem;
+    /* width: 100vw; */
+}
+
+.lastline span{
+    color: navy;
+    margin-right: 40rem;
+}
+.lastline a{
+    text-decoration: none;
+    color: navy;
+    margin-left: 1em;
+}
+
+
+/* Main css */
+.col{
+    display: flex;
+}
+.col1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 11rem;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    /* padding-right: 30rem;
+    padding-left: 10rem; */
+    /* background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700885066.jpg"); */
+    background-image: url("./img/MAHABALESHWAR.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-clip: border-box;
+}
+main h2{
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+    font-weight: normal;
+}
+main p{
+    color: white;
+    font-size: 5rem;
+    text-wrap: wrap;
+    margin: 0;
+    margin-top: 1rem;
+}
+main p span{
+    font-weight: bold;
+    color: white;
+}
+
+main button{
+    /* width: fit-content; */
+    color: white;
+    background-color: #131E3A;
+    margin-top: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: 1px solid #131E3A;
+}
+
+/* main card css */
+
+.pcardsa{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: navajowhite;
+    /*margin-left: 0rem; */
+    margin-top: 29.5rem;
+    margin-right: 6rem;
+    /* margin-bottom: -4rem;*/
+}
+.ratinga{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-bottom: -0.5rem;
+}
+.ratinga img{
+    width: 10rem;
+    margin: 1rem;
+    height: 7rem;
+}
+.arrow_btna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+.arrow_btna p{
+    font-size: 1rem;
+}
+.arrow_btna img{
+    width: 1rem;
+    margin-left: 0;
+    height: 1rem;
+    margin-top: 0;
+    padding: 0;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.pcarda1{
+    display: flex;
+    width: 22rem;
+    height: 11rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #131E3A;
+    background-size: 100% 100%;
+    
+}
+.pcarda1 span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ratingap{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+#more{
+    margin-left: -3rem;
+    font-size: 1rem;
+    color: white;
+}
+#more a{
+    text-decoration: none;
+}
