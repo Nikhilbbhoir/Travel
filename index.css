@@ -300,6 +300,7 @@ main button{
         font-size: 1.5rem;
     }
     .col {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -307,7 +308,6 @@ main button{
         justify-content: center;
     }
     .col1 {
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -324,9 +324,27 @@ main button{
         margin: 0;
     }
     .pcarda1{
-        width:16rem;
-        height:9rem;
+        width:auto;
+        height:auto;
+        /* width:16rem;
+        height:9rem; */
     }
-
+    .para{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .ratingap{
+        /* margin-left: 0rem; */
+        font-size: 1rem;
+    }
+    .arrow_btna{
+        margin: 0;
+    }
+    .arrow_icon{
+        display: flex;
+    }
+    .arrow_icon a{
+        margin-top: 1.2rem;
+    }
 
 }
