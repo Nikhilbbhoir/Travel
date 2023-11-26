@@ -252,6 +252,7 @@ footer {
     .pcards{
         flex-direction: row;
         margin: 2rem;
+        height: 100%;
     }
     .row1{
         flex-direction: column;
