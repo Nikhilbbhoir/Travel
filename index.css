@@ -254,6 +254,13 @@ main button{
         align-items: center;
         justify-content: center;
     }
+    
+    .fcol3{
+        align-items: center;
+    }
+    .fcol4{
+        align-items: center;
+    }
     .lastline {
         flex-direction: column;
     }
