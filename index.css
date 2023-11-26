@@ -290,6 +290,7 @@ main button{
 
     main {
         height: 100%;
+        background-size: auto;
     }
     main p {
         font-size: 3rem;
