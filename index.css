@@ -338,7 +338,7 @@ main button{
         font-size: 1rem;
     }
     .arrow_btna{
-        margin: 3rem;
+        margin-left: 3rem;
     }
     .arrow_icon{
         display: flex;
