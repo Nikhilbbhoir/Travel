@@ -308,10 +308,7 @@ main button{
         justify-content: center;
     }
     .col1 {
-        display: flex;
         align-items: center;
-        justify-content: center;
-        flex-direction: column;
         margin-left: 0rem;
         margin-top: 8rem;
     }
